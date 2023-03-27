@@ -1,0 +1,38 @@
+version: 1
+project:
+  title: A Quantitative Model of Human Jejunal Smooth Muscle Cell Electrophysiology
+  authors:
+    - name: Weiwei Ai
+      orcid: 0000-0001-5602-5707
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+      corresponding: true
+      email: weiwei.ai@auckland.ac.nz
+    - name: David P. Nickerson
+      orcid: 0000-0003-4667-9779
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+  keywords:
+    - Human jejunal smooth muscle cell
+    - computational model
+    - CellML
+  open_access: true
+  license: CC-BY-4.0
+  subject: Original
+  date: 2021/09/09
+  doi: 10.36903/physiome.16590317
+site:
+  title: A Quantitative Model of Human Jejunal Smooth Muscle Cell Electrophysiology
+  projects:
+    - slug: S000009
+      path: .
+  nav: []
+  actions:
+    - title: paper
+      url: Ai2021PhysiomeS000009.pdf
+      static: true
+    - title: omex
+      url: Ai2021PhysiomeS000009.omex
+      static: true
+    - title: primary
+      url: https://doi.org/10.1371/journal.pone.0042385
