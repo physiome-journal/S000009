@@ -21,6 +21,9 @@ project:
   subject: Original
   date: 2021/09/09
   doi: 10.36903/physiome.16590317
+  numbering:
+    heading_2: true
+    heading_3: true
 site:
   title: A Quantitative Model of Human Jejunal Smooth Muscle Cell Electrophysiology
   projects:
