@@ -5,13 +5,26 @@ project:
     - name: Weiwei Ai
       orcid: 0000-0001-5602-5707
       affiliations:
-        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
       corresponding: true
       email: weiwei.ai@auckland.ac.nz
     - name: David P. Nickerson
       orcid: 0000-0003-4667-9779
       affiliations:
-        - Auckland Bioengineering Institute, University of Auckland,New Zealand
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+  editors:
+    - name: Shelley Fong
+      role: Editor
+    - name: Anand K. Rampadarath
+      orcid: 0000-0001-8830-6212
+      role: Curator
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+  history:
+    - date: 2021/08/09
+      type: accepted
+    - date: 2021/09/09
+      type: published
   keywords:
     - Human jejunal smooth muscle cell
     - computational model
