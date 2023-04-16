@@ -21,7 +21,10 @@ project:
         - Auckland Bioengineering Institute, University of Auckland, New Zealand
   editors:
     - name: Shelley Fong
+      orcid: 0000-0001-8610-1088
       role: Editor
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
     - name: Anand K. Rampadarath
       orcid: 0000-0001-8830-6212
       role: Curator
