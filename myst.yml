@@ -1,6 +1,13 @@
 version: 1
 project:
   title: A Quantitative Model of Human Jejunal Smooth Muscle Cell Electrophysiology
+  description: >-
+    The Poh et al. (2012) paper describes the first biophysically based
+    computational model of human jejunal smooth muscle cell (hJSMC)
+    electrophysiology. The ionic currents are described by either a traditional
+    Hodgkin-Huxley (HH) formalism or a deterministic multi-state Markov (MM)
+    formalism.
+  thumbnail: thumbnail.png
   authors:
     - name: Weiwei Ai
       orcid: 0000-0001-5602-5707
