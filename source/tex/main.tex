@@ -61,7 +61,7 @@ Following best practices, our CellML implementation separates the mathematics fr
 \item the \emph{sensitivity analysis experiment} is used to evaluate the contributions of currents to the membrane voltage.
 \end{enumerate}
 
-Simulation settings and detailed solver information are encoded in SED-ML documents for execution of the simulation experiments \citep{waltemath_reproducible_2011}. The Python scripts used with OpenCOR \citep{garny_opencor_2015} to perform simulations and produce the figures in the primary paper are also included in the folder <Simulation>. The name of the simulation and plot scripts indicate the figure number in the primary paper. For example, Fig2\_sim.py is used to generate the simulation data and Fig2\_plot.py reproduces the graph shown in Figure 2 from \citet{poh2012quantitative}.
+Simulation settings and detailed solver information are encoded in SED-ML documents for execution of the simulation experiments \citep{waltemath_reproducible_2011}. The Python scripts used with OpenCOR \citep{garny_opencor_2015} to perform simulations and produce the figures in the primary paper are also included in the folder \texttt{<Simulation>}. The name of the simulation and plot scripts indicate the figure number in the primary paper. For example, \texttt{Fig2\_sim.py} is used to generate the simulation data and \texttt{Fig2\_plot.py} reproduces the graph shown in Figure 2 from \citet{poh2012quantitative}.
 
 \section{Model results}
 \label{sed:modelResults}
@@ -162,7 +162,7 @@ In the \emph{periodic stimulation experiment}, the \emph{membrane potential comp
 
 
 \subsection{Sensitivity Analysis}
-In the \emph{sensitivity analysis experiment}, the \emph{membrane potential component} is configured to accept the changes of maximum conductance of ionic channels in the component g\_parameters.
+In the \emph{sensitivity analysis experiment}, the \emph{membrane potential component} is configured to accept the changes of maximum conductance of ionic channels in the component \texttt{g\_parameters}.
 
 \autoref{simFig13} shows sensitivity analysis by 50\% increase or decrease in maximum channel conductance. This evaluates the contributions of key ionic currents towards hJSMC membrane voltage. The last plot shows the free intracellular $Ca^{2+}$ concentrations corresponding to changes in $I_{CaL}$.
 
@@ -201,7 +201,7 @@ $\tau_{dCat}$ & 1.9058 & 1.9058 & 1.9508 & 1.9508\\
 \begin{threeparttable}
 \caption{Inconsistency of equations}\label{tab:equations}
 
-\begin{tabularx}{\textwidth} {m{2cm}m{2cm}m{2.3cm}m{2.3cm}X}
+\begin{tabularx}{\textwidth} % {m{2cm}m{2cm}m{2.3cm}m{2.3cm}X}
 \toprule
 Equations & primary paper & Original CellML & C code & current CellML\\
 \midrule
