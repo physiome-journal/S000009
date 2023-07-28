@@ -49,10 +49,6 @@ project:
     heading_3: true
 site:
   title: A Quantitative Model of Human Jejunal Smooth Muscle Cell Electrophysiology
-  projects:
-    - slug: S000009
-      path: .
-  nav: []
   actions:
     - title: paper
       url: Ai2021PhysiomeS000009.pdf
@@ -62,3 +58,5 @@ site:
       static: true
     - title: primary
       url: https://doi.org/10.1371/journal.pone.0042385
+  domains:
+    - physiome-S000009.curve.space
